@@ -1,0 +1,29 @@
+App\Banking\Entities\AccountBalanceEntity:
+  exclusion_policy: all
+  properties:
+    id:
+      type: string
+    balance:
+      type: float
+    balanceDate:
+      type: DateTime<'Y-m-d H:i:s'>
+    userId:
+      type: string
+    accountId:
+      type: string
+    loadId:
+      type: string
+    order:
+      type: int
+    createdAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    updatedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    deletedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    createdBy:
+      type: string
+    updatedBy:
+      type: string
+    deletedBy:
+      type: string

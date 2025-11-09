@@ -1,0 +1,27 @@
+App\Banking\Entities\BankEntity:
+  exclusion_policy: all
+  properties:
+    id:
+      type: string
+    logo:
+      type: string
+    name:
+      type: string
+    alias:
+      type: string
+    color:
+      type: string
+    lkUrl:
+      type: string
+    createdAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    updatedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    deletedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    createdBy:
+      type: string
+    updatedBy:
+      type: string
+    deletedBy:
+      type: string

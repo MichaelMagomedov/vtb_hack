@@ -1,0 +1,25 @@
+App\Banking\Entities\TransactionCategoryEntity:
+  exclusion_policy: all
+  properties:
+    id:
+      type: string
+    logo:
+      type: string
+    name:
+      type: string
+    color:
+      type: string
+    order:
+      type: int
+    createdAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    updatedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    deletedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    createdBy:
+      type: string
+    updatedBy:
+      type: string
+    deletedBy:
+      type: string

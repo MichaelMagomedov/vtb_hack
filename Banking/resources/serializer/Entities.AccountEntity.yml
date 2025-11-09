@@ -1,0 +1,35 @@
+App\Banking\Entities\AccountEntity:
+  exclusion_policy: all
+  properties:
+    id:
+      type: string
+    userId:
+      type: string
+    bankId:
+     type: string
+    number:
+      type: string
+    name:
+      type: string
+    order:
+      type: int
+    currencyId:
+      type: string
+    type:
+      type: enum<'App\Banking\Enums\AccountTypeEnum', 'value'>
+    currencyReason:
+      type: string
+    bankReason:
+      type:string
+    createdAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    updatedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    deletedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    createdBy:
+      type: string
+    updatedBy:
+      type: string
+    deletedBy:
+      type: string

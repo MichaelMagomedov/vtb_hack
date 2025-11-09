@@ -1,0 +1,27 @@
+App\Banking\Entities\UserTransactionPatternEntity:
+  exclusion_policy: all
+  properties:
+    id:
+      type: string
+    destination:
+      type: string
+    userId:
+      type: string
+    fromTransactionId:
+      type: string
+    categoryId:
+      type: string
+    codeId:
+      type: string
+    createdAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    updatedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    deletedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    createdBy:
+      type: string
+    updatedBy:
+      type: string
+    deletedBy:
+      type: string

@@ -1,0 +1,41 @@
+App\Ai\Entities\LoadEntity:
+  exclusion_policy: all
+  properties:
+    id:
+      type: string
+    accountId:
+      type: string
+    userId:
+      type: string
+    chatId:
+      type: string
+    reason:
+      type: string
+    lastMessageId:
+      type: string
+    status:
+      type: enum<'App\Ai\Enums\LoadStatusEnum', 'value'>
+    sysReason:
+      type: string
+    inputCharsCount:
+      type: int
+    inputWordsCount:
+      type: int
+    outputCharsCount:
+      type: int
+    outputWordsCount:
+      type: int
+    type:
+      type: enum<'App\Ai\Enums\LoadTypeEnum', 'value'>
+    createdAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    updatedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    deletedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    createdBy:
+      type: string
+    updatedBy:
+      type: string
+    deletedBy:
+      type: string

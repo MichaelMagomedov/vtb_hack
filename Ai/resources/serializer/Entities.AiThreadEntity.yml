@@ -1,0 +1,25 @@
+App\Ai\Entities\AiThreadEntity:
+  exclusion_policy: all
+  properties:
+    id:
+      type: string
+    runId:
+      type: string
+    loadId:
+      type: string
+    functionCallParams:
+      type: string
+    thread:
+      type: string
+    createdAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    updatedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    deletedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    createdBy:
+      type: string
+    updatedBy:
+      type: string
+    deletedBy:
+      type: string

@@ -1,0 +1,51 @@
+App\Banking\Entities\TransactionEntity:
+  exclusion_policy: all
+  properties:
+    id:
+      type: string
+    accountId:
+      type: string
+    categoryId:
+      type: string
+    codeId:
+      type: string
+    userId:
+      type: string
+    desc:
+      type: string
+    loadId:
+      type: string
+    verified:
+      type: bool
+    shortDesc:
+      type: string
+    operationCode:
+      type: string
+    amount:
+      type: float
+    destination:
+      type: string
+    color:
+      type: string
+    date:
+      type: DateTime<'Y-m-d H:i:s'>
+    type:
+      type: enum<'App\Banking\Enums\TransactionTypeEnum', 'value'>
+    mcc:
+      type: int
+    mccReason:
+      type: string
+    order:
+      type: int
+    createdAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    updatedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    deletedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    createdBy:
+      type: string
+    updatedBy:
+      type: string
+    deletedBy:
+      type: string

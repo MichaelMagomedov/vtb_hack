@@ -1,0 +1,23 @@
+App\Banking\Entities\CurrencyEntity:
+  exclusion_policy: all
+  properties:
+    id:
+      type: string
+    code:
+      type: string
+    alias:
+      type: string
+    icon:
+      type: string
+    createdAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    updatedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    deletedAt:
+      type: DateTime<'Y-m-d H:i:s'>
+    createdBy:
+      type: string
+    updatedBy:
+      type: string
+    deletedBy:
+      type: string
